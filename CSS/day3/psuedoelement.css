@@ -1,0 +1,40 @@
+li::marker{
+    content: '😊';
+}
+li+li::marker{
+    content: '😍';
+}
+li+li+li::marker{
+    content: '😉';
+}
+li+li+li+li::marker{
+    content: '😜';
+}
+p::selection{
+    background-color: aqua;
+    color: midnightblue;
+}
+p::after{
+    content: '😛';
+}
+p::before{
+    content: '😍';
+}
+p::first-letter{
+    color: blueviolet;
+    background-color: chartreuse;
+}
+p::first-line{
+    background-color: hotpink;
+    color: aqua;
+}
+*::selection{
+    background-color: crimson;
+    color: gold;
+}
+body{
+    background-color:lightcoral;
+}
+li::marker{
+    content: 😀;
+}

@@ -1,0 +1,7 @@
+@import url(./external3.css);
+section{
+    border: 4px solid;
+    height: 100px;
+    width: 100px;
+    background-color: lawngreen;
+}

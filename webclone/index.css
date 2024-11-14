@@ -1,0 +1,103 @@
+*{
+  margin: 0%;
+  padding: 0%;
+  box-sizing: border-box;
+}
+#nav{
+    border: 2px solid;
+    height: 100px;
+    background-color: black;
+    /* width: 50%; */
+}
+#logo{
+    /* border: 2px solid; */
+    /* height: 50px;
+    width: 100px; */
+    position: absolute;
+    left: 200px;
+    top: 20px;
+    color: white;
+}
+#logo>svg{
+    height: 250px;
+    width: 150px;
+    color: white;
+    fill: white;
+}
+#elements{
+    /* border: 2px solid white; */
+    height: 20px;
+    width: fit-content;
+    position: absolute;
+    left: 55%;
+    top: 35px;
+}
+.a1{
+    color: white;
+    font-size: 18px;
+    padding: 20px;
+}
+.a1:hover{
+    color: green;
+    cursor: pointer;
+}
+#main{
+    /* border: 2px solid; */
+    height: 600px;
+    background: url(https://www.scdn.co/i/free/bubbles-dktp.svg) center -138px / 100% 1068px no-repeat, linear-gradient(-45deg, rgb(108, 14, 224) -5%, rgb(240, 55, 166));
+    background-position: center -138px;
+}
+main>span>svg{
+    height: 690px;
+    width: 630px;
+     position: absolute;
+    top: 60%;
+    margin-top: 10%;
+}
+#phone{
+    /* height: 100px; */
+    width: 300px;
+    position: absolute;
+    left: 20%;
+    top: 20%;
+    position: relative;
+}
+#phone img{
+    width: 280px;
+    height: 430px;
+    position: absolute;
+    top: 8%;
+    left: 3%;
+}
+#m1{
+    /* border: 2px solid; */
+    position: absolute;
+    top: 45%;
+    left: 45%;
+    font-size: 15px;
+}
+#text{
+    font-size: 55px;
+    color: white;
+    word-spacing: 8px;
+    font-weight: bolder;
+}
+#button{
+    /* border: 2px solid; */
+    width: fit-content;
+    position: absolute;
+    top: 68%;
+    left: 45%;
+}
+#b1{
+    border-radius: 25px;
+    padding: 12px;
+    border: none;
+}
+#content{
+    border: 2px solid;
+    font-size: large;
+    margin-left: 40%;
+
+}
+

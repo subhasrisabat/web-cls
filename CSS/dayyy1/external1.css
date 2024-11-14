@@ -1,0 +1,12 @@
+@import url(./external2.css);
+nav{
+    border: 2px solid;
+    /* height: 50px; */
+    background-color: aqua;
+    background-color: blue;
+    background-color: brown;
+}
+footer{
+    background-color: hotpink;
+    border: 2px solid yellow;
+}

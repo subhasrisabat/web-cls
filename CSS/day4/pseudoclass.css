@@ -1,0 +1,51 @@
+a:link{
+    color: chocolate;
+}
+a:active{
+    color: brown;
+}
+a:visited{
+    color: darkgreen;
+}
+p:hover{
+    background-color: magenta;
+}
+img{
+    height: 200px;
+    width: 200px;
+}
+img:hover{
+    width: 400px;
+    cursor: pointer;
+}
+input:hover{
+    height: 100px;
+    width: 100px;
+    accent-color: pink;
+}
+input:checked{
+    height: 100px;
+    width: 100px;
+    accent-color: yellow;
+}
+input:focus{
+    height: 100px;
+    width: 200px;
+    background-color: tomato;
+    color: rgb(210, 30, 177);
+}
+section:first-child{
+    background-color: olive;
+}
+div:last-child{
+    background-color: lime;
+}
+/* li:nth-child(even){ */
+/* li:nth-child(odd){ */
+li:nth-child(2){
+    background-color: crimson;
+    color: cyan;
+}
+
+
+  

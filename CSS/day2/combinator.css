@@ -1,0 +1,23 @@
+/*desendent selector--> direct and indirect*/
+div h1{
+    background-color: aqua;
+}
+/*child selector -->*/
+div>h1{
+    background-color: brown;
+}
+/* adjacent sibling selector--> right after sibling*/
+div>h1+h1{
+    background-color: blue;
+}
+/* general sibling selector--> right after it all sibling (direct and indirect)*/
+div>h1~h1{
+    background-color: pink;
+    border: 4px solid lawngreen;
+}
+div~section{
+    background-color: orange; 
+} 
+div+section+section{
+    background-color: green;
+}
